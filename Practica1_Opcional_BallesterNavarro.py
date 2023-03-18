@@ -165,7 +165,6 @@ def main():
         p.join()
     consumidor.join()
     
-    print("La lista resultante de prodcutos consumidos es:", f"{lst_consumidos}")
 
 if __name__ == '__main__':
     main()
